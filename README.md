@@ -1,36 +1,23 @@
 # Chadicus\Slim\OAuth2
-[![Latest Stable Version](https://poser.pugx.org/chadicus/slim-oauth2/v/stable)](https://packagist.org/packages/chadicus/slim-oauth2)
-[![Latest Unstable Version](https://poser.pugx.org/chadicus/slim-oauth2/v/unstable)](https://packagist.org/packages/chadicus/slim-oauth2)
-[![License](https://poser.pugx.org/chadicus/slim-oauth2/license)](https://packagist.org/packages/chadicus/slim-oauth2)
 
-[![Total Downloads](https://poser.pugx.org/chadicus/slim-oauth2/downloads)](https://packagist.org/packages/chadicus/slim-oauth2)
-[![Daily Downloads](https://poser.pugx.org/chadicus/slim-oauth2/d/daily)](https://packagist.org/packages/chadicus/slim-oauth2)
-[![Monthly Downloads](https://poser.pugx.org/chadicus/slim-oauth2/d/monthly)](https://packagist.org/packages/chadicus/slim-oauth2)
+> **Fork Notice:** This is a maintained fork of the abandoned [`chadicus/slim-oauth2`](https://github.com/chadicus/slim-oauth2) package. Updated for PHP 8.1+ with support for `laminas/laminas-diactoros` v3.
 
-A collection of [OAuth2 Server](http://bshaffer.github.io/oauth2-server-php-docs/) routes, middleware and utilities for use within a [Slim 3 Framework](http://www.slimframework.com/) API
+A collection of [OAuth2 Server](http://bshaffer.github.io/oauth2-server-php-docs/) routes, middleware and utilities for use within a [Slim 3 Framework](http://www.slimframework.com/) API.
 
 ## Requirements
 
-Chadicus\Slim\OAuth2 requires PHP 5.6 (or later).
+PHP 8.1 or later.
 
 ## Composer
-To add the library as a local, per-project dependency use [Composer](http://getcomposer.org)! Simply add a dependency on `chadicus/slim-oauth2` to your project's `composer.json` file such as:
 
 ```sh
-composer require chadicus/slim-oauth2
+composer require maksimovic/slim-oauth2
 ```
 
 ## Components
 
 This package is a metapackage aggregating the following components:
 
-* [chadicus/slim-oauth2-http](https://github.com/chadicus/slim-oauth2-http)
-* [chadicus/slim-oauth2-middleware](https://github.com/chadicus/slim-oauth2-middleware)
-* [chadicus/slim-oauth2-routes](https://github.com/chadicus/slim-oauth2-routes)
-
-## Examples
-
-Examples can be found in the [examples](examples/) folder.
-
-## Community
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/slim-oauth2/Lobby#)
+* [maksimovic/slim-oauth2-http](https://github.com/maksimovic/slim-oauth2-http)
+* [maksimovic/slim-oauth2-middleware](https://github.com/maksimovic/slim-oauth2-middleware)
+* [maksimovic/slim-oauth2-routes](https://github.com/maksimovic/slim-oauth2-routes)
