@@ -1,13 +1,13 @@
 {
-    "name": "chadicus/slim-oauth2",
+    "name": "maksimovic/slim-oauth2",
     "type": "metapackage",
-    "description": "OAuth2 routes, middleware and utilities for use within a Slim Framework API",
+    "description": "OAuth2 routes, middleware and utilities for use within a Slim Framework API (PHP 8.1+ fork)",
     "keywords": ["slim", "oauth2", "middleware", "routes", "http", "api", "psr7"],
     "license": "MIT",
     "require": {
-        "php": "^5.6 || ^7.0 || ^8.0",
-        "chadicus/slim-oauth2-http": "^3.2",
-        "chadicus/slim-oauth2-middleware": "^3.4",
-        "chadicus/slim-oauth2-routes": "^3.2"
+        "php": "^8.1",
+        "maksimovic/slim-oauth2-http": "^3.0",
+        "maksimovic/slim-oauth2-middleware": "^3.0",
+        "maksimovic/slim-oauth2-routes": "^3.0"
     }
 }
