@@ -9,5 +9,8 @@
         "maksimovic/slim-oauth2-http": "^4.0",
         "maksimovic/slim-oauth2-middleware": "^4.0",
         "maksimovic/slim-oauth2-routes": "^4.0"
+    },
+    "replace": {
+        "chadicus/slim-oauth2": "*"
     }
 }
